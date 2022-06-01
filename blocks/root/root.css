@@ -1,0 +1,14 @@
+:root {
+    max-width: 1440px;
+    min-width: 414px;
+    margin: 0 auto;
+    background-color: #ECEBE8;
+    color: #242424;
+    /* font-family: 'Formular', 'Arial', sans-serif; */
+    /* font-family: 'Neue Machina', 'Arial', sans-serif; */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+}
