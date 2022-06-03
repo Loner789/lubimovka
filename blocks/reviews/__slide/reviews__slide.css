@@ -1,0 +1,8 @@
+.reviews__slide {
+    max-width: 100%;
+    padding: 77px 26px 72px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    box-sizing: border-box;
+}

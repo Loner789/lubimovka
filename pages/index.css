@@ -11,6 +11,17 @@
 @import url(../blocks/photo-grid/__title/photo-grid__title.css);
 @import url(../blocks/photo-grid/__container/photo-grid__container.css);
 @import url(../blocks/photo-grid/__image/photo-grid__image.css);
+/* REVIEWS */
+@import url(../blocks/reviews/reviews.css);
+@import url(../blocks/reviews/__heading/reviews__heading.css);
+@import url(../blocks/reviews/__title/reviews__title.css);
+@import url(../blocks/reviews/__slide/reviews__slide.css);
+@import url(../blocks/reviews/__slide-image/reviews__slide-image.css);
+@import url(../blocks/reviews/__slide-text/reviews__slide-text.css);
+@import url(../blocks/reviews/__slide-button/reviews__slide-button.css);
+@import url(../blocks/slider/slider.css);
+@import url(../blocks/slider/__arrow-left/slider__arrow-left.css);
+@import url(../blocks/slider/__arrow-right/slider__arrow-right.css);
 /* ---------------------------------CONTENT ----------------------------------*/
 
 /* FOOTER */

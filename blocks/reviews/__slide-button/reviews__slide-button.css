@@ -1,0 +1,12 @@
+.reviews__slide-button {
+    width: 210px;
+    height: 32px;
+    margin-top: 32px;
+    padding: 0;
+    background-image: url(../../../images/icon_read_entirely.svg);
+    background-color: transparent;
+    background-size: cover;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
