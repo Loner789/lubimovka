@@ -10,3 +10,27 @@
 /* ---------------------------------CONTENT ----------------------------------*/
 
 /* FOOTER */
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__logo/footer__logo.css);
+@import url(../blocks/footer/__adresse-box/footer__adresse-box.css);
+@import url(../blocks/footer/__adresse-head/footer__adresse-head.css);
+@import url(../blocks/footer/__adresse/footer__adresse.css);
+@import url(../blocks/footer/__links/footer__links.css);
+@import url(../blocks/footer/__links-list/footer__links-list.css);
+@import url(../blocks/footer/__list-element/footer__list-element.css);
+@import url(../blocks/footer/__links-list/_position/footer__links-list_position.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__partners/footer__partners.css);
+@import url(../blocks/footer/__partners-box/footer__partners-box.css);
+@import url(../blocks/footer/__partner-img/footer__partner-img.css);
+@import url(../blocks/footer/__partner-caption/footer__partner-caption.css);
+@import url(../blocks/footer/__authors/footer__authors.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/footer/__copyright-text/footer__copyright-text.css);
+@import url(../blocks/footer/__copyright-text/_position/footer__copyright-text_position.css);
+@import url(../blocks/footer/__copyright-link/footer__copyright-link.css);
+@import url(../blocks/footer/__designers/footer__designers.css);
+@import url(../blocks/footer/__designers-text-box/footer__designers-text-box.css);
+@import url(../blocks/footer/__designers-logo/footer__designers-logo.css);
+@import url(../blocks/footer/__developers/footer__developers.css);
