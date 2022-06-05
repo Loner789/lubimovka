@@ -1,0 +1,10 @@
+.from-school__content-box {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 828px) {
+  .from-school__content-box {
+    width: 50%;
+  }
+}

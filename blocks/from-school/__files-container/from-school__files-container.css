@@ -1,0 +1,10 @@
+.from-school__files-container {
+  padding-left: 24px;
+  padding-bottom: 100px;
+}
+
+@media (min-width: 1440px) {
+  .from-school__files-container {
+    padding-left: 0;
+  }
+}
