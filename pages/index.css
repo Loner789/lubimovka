@@ -21,11 +21,13 @@
 @import url(../blocks/reviews/__slide-image/reviews__slide-image.css);
 @import url(../blocks/reviews/__slide-text/reviews__slide-text.css);
 @import url(../blocks/reviews/__slide-button/reviews__slide-button.css);
-
+@import url(../blocks/reviews/__slide-button-img/reviews__slide-button-img.css);
+@import url(../blocks/reviews/__slide-button-text/reviews__slide-button-text.css);
 @import url(../blocks/slider-control/slider-control.css);
 @import url(../blocks/slider-control/__dots/slider__dots.css);
-@import url(../blocks/slider-control/__arrow-left/slider-control__arrow-left.css);
-@import url(../blocks/slider-control/__arrow-right/slider-control__arrow-right.css);
+@import url(../blocks/slider-control/__btn/slider-control__btn.css);
+@import url(../blocks/slider-control/__btn/_dir/slider-control__btn_dir_right.css);
+@import url(../blocks/slider-control/__img/slider-control__img.css);
 /* ---------------------------------CONTENT ----------------------------------*/
 
 /* FOOTER */
