@@ -1,0 +1,26 @@
+.from-school__ticket-button {
+  box-sizing: border-box;
+  border: 1px solid #000;
+  background-color: unset;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 240px;
+  height: 56px;
+  margin-left: calc(85px - 24px);
+  padding: 0 22px 0 16px;
+
+  font-family: "Formular";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.38;
+}
+
+@media (min-width: 1440px) {
+  .from-school__ticket-button {
+    margin-left: 0;
+  }
+}

@@ -1,0 +1,8 @@
+.from-school__role {
+  font-family: "Formular";
+  padding-bottom: 24px;
+}
+
+.from-school__role:last-child {
+  padding-bottom: 0;
+}
