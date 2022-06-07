@@ -1,0 +1,10 @@
+.footer__link {
+  font-family: "Formular";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1.28;
+  font-feature-settings: "ss01" on;
+  color: #242424;
+  text-decoration: none;
+}

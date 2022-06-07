@@ -1,5 +1,4 @@
-.footer {
+.footer__partners-box {
     display: flex;
     flex-direction: column;
-    padding: 56px 0 74px;
 }
