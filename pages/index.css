@@ -6,6 +6,39 @@
 /* HEADER */
 
 /* ---------------------------------CONTENT ----------------------------------*/
+/* FROM-SCHOOL*/
+@import url(../blocks/from-school/from-shcool.css);
+@import url(../blocks/from-school/__content-box/from-school__content-box.css);
+@import url(../blocks/from-school/__content-direction/from-school__content-direction.css);
+@import url(../blocks/from-school/__copyright-author/from-school__copyright-author.css);
+@import url(../blocks/from-school/__copyright-container/from-school__copyright-container.css);
+@import url(../blocks/from-school/__date/from-school__date.css);
+@import url(../blocks/from-school/__description-container/from-school__description-container.css);
+@import url(../blocks/from-school/__description-paragraph/from-school__description-paragraph.css);
+@import url(../blocks/from-school/__description-paragraphs/from-school__description-paragraphs.css);
+@import url(../blocks/from-school/__duration/from-school__duration.css);
+@import url(../blocks/from-school/__event-time/from-school__event-time.css);
+@import url(../blocks/from-school/__files-block/from-school__files-block.css);
+@import url(../blocks/from-school/__files-button/from-school__files-button.css);
+@import url(../blocks/from-school/__files-container/from-school__files-container.css);
+@import url(../blocks/from-school/__files-download-panel/from-school__files-download-panel.css);
+@import url(../blocks/from-school/__files-heading/from-school__files-heading.css);
+@import url(../blocks/from-school/__files-info/from-school__files-info.css);
+@import url(../blocks/from-school/__heading-container/from-school__heading-container.css);
+@import url(../blocks/from-school/__heading-text/from-school__heading-text.css);
+@import url(../blocks/from-school/__heading/from-school__heading.css);
+@import url(../blocks/from-school/__info-block/from-school__info-block.css);
+@import url(../blocks/from-school/__info-container/from-school__info-container.css);
+@import url(../blocks/from-school/__name/from-school__name.css);
+@import url(../blocks/from-school/__pegi/from-school__pegi.css);
+@import url(../blocks/from-school/__preview-container/from-school__preview-container.css);
+@import url(../blocks/from-school/__preview-image/from-school__preview-image.css);
+@import url(../blocks/from-school/__preview-text/from-school__preview-text.css);
+@import url(../blocks/from-school/__profession/from-school__profession.css);
+@import url(../blocks/from-school/__role/from-school__role.css);
+@import url(../blocks/from-school/__team/from-school__team.css);
+@import url(../blocks/from-school/__ticket-button/from-school__ticket-button.css);
+@import url(../blocks/from-school/__video/from-school__video.css);
 /* PHOTO-GRID */
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/__title/photo-grid__title.css);

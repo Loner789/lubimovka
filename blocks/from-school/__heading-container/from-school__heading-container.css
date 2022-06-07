@@ -1,0 +1,20 @@
+.from-school__heading-container {
+  box-sizing: border-box;
+
+  padding: 0 24px 38px 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 828px) {
+  .from-school__heading-container {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .from-school__heading-container {
+    padding-top: 62px;
+    padding-left: 120px;
+  }
+}
