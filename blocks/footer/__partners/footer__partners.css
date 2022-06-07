@@ -1,0 +1,8 @@
+.footer__partners {
+    display: grid;
+    grid-template-columns: repeat(2, 182px);
+    grid-template-rows: repeat(2, 118px);
+    justify-items: center;
+    align-items: center;
+    padding: 56px 0 80px 24px;
+}
