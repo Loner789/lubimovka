@@ -5,12 +5,14 @@
 @import url(../blocks/root/root.css);
 /* HEADER */
 @import url(../blocks/header/header.css);
+
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__intro/header__intro.css);
 @import url(../blocks/header/__menu/header__menu.css);
 @import url(../blocks/header/__menu-item/header__menu-item.css);
 @import url(../blocks/header/__social/header__social.css);
 @import url(../blocks/header/__support/header__support.css);
+@import url(../blocks/header/__blockquote/header__blockquote.css);
 /* HEADER */
 
 
