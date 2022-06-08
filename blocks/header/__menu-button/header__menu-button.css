@@ -1,0 +1,18 @@
+.header__menu-button {
+    position: fixed;
+    width: 72px;
+    height: 72px;
+    right: 0;
+    bottom: 40px;
+    border: 0;
+    z-index: 100;
+
+    background-image: url(../../../images/burger.svg);
+}
+
+@media screen and (min-width: 415px) {
+    .header__menu-button {
+        display: none;
+    }
+  }
+

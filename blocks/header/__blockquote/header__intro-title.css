@@ -1,0 +1,14 @@
+.header__intro-title {
+    margin: 5.04px 0 26.02px 28.53px;
+    max-width: 187.98px; 
+    grid-area: title;
+
+    font-family: 'Neue Machina', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: white;
+
+}
+

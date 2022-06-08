@@ -1,0 +1,14 @@
+.header__intro-blockquote {
+    margin: 38px 29.09px 0 26px;
+    
+
+    font-family: 'Formular', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 9px;
+    line-height: 18px;
+    text-align: justify;
+    color: white;
+
+    grid-area: quote;
+}
