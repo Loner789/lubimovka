@@ -1,0 +1,11 @@
+.reviews__slide-button-text {
+    margin: 0;
+    padding-left: 4px;
+    text-transform: uppercase;
+    font-family: 'Formular';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 0.88;
+    color: #242424;
+}
