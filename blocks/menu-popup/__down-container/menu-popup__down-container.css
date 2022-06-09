@@ -1,0 +1,4 @@
+.menu-popup__down-container {
+    display: flex;
+    flex-wrap: nowrap;
+}

@@ -1,0 +1,10 @@
+.menu-popup__right-bar {
+    margin-left: 54px;
+    height: 56px;
+    align-items: center;
+    justify-items: flex-end;
+}
+
+.menu-popup__right-bar:first-of-type {
+    margin-top: 69.5px;
+}

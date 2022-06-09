@@ -19,12 +19,25 @@
 @import url(../blocks/header/__support/header__support.css);
 @import url(../blocks/header/__menu-button/header__menu-button.css);
 
-
+/* MENU POPUP */
 @import url(../blocks/menu-popup/menu-popup.css);
 @import url(../blocks/menu-popup/__nav/menu-popup__nav.css);
+@import url(../blocks/menu-popup/__logo-menu/menu-popup__logo-menu.css);
 @import url(../blocks/menu-popup/__menu-item/menu-popup__menu-item.css);
 @import url(../blocks/menu-popup/__menu-item_active/menu-popup__menu-item_active.css);
+@import url(../blocks/menu-popup/__active-left/menu-popup__active-left.css);
+@import url(../blocks/menu-popup/__active-right/menu-popup__active-right.css);
+@import url(../blocks/menu-popup/__right-bar/menu-popup__right-bar.css);
+@import url(../blocks/menu-popup/__down-bar-top/menu-popup__down-bar-top.css);
+@import url(../blocks/menu-popup/__down-bar/menu-popup__down-bar.css);
+@import url(../blocks/menu-popup/__down-container/menu-popup__down-container.css);
+
+
+/* MENU POPUP */
+
+/* POPUP */
 @import url(../blocks/popup/_opened/popup_opened.css);
+/* POPUP */
 
 /* HEADER */
 

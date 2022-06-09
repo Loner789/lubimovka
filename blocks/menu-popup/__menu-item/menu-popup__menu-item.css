@@ -1,3 +1,12 @@
 .menu-popup__menu-item {
-    
+    margin-top: 3px;
+    align-items: center;
+    grid-column: 2;
+
+    color: #242424;
+    font-family: 'Neue Machina', 'Arial', sans-serif;
+    font-size: 28px;
+    line-height: 32px;
+    text-decoration: none;
+    font-weight: 400;
 }

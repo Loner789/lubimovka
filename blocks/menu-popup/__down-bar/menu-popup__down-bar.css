@@ -1,0 +1,6 @@
+.menu-popup__down-bar {
+    width: calc(100vw / 2);
+    height: 56px;
+    align-items: center;
+    justify-items: flex-end;
+}
