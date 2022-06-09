@@ -1,0 +1,8 @@
+.from-school__files-block {
+  padding-left: calc(85px - 24px);
+  width: 244px;
+}
+
+.from-school__files-block {
+  padding-left: 0;
+}

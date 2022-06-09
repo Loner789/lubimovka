@@ -1,0 +1,6 @@
+.from-school__files-download-panel {
+  background-color: #b7c09d;
+
+  display: flex;
+  flex-direction: column;
+}

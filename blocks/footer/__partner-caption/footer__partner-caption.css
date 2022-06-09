@@ -1,0 +1,12 @@
+.footer__partner-caption {
+  margin: 0;
+  padding-top: 15px;
+  font-family: "Formular";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.43;
+  text-align: center;
+  font-feature-settings: "ss01" on;
+  color: #242424;
+}

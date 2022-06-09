@@ -1,0 +1,17 @@
+.from-school__preview-text {
+  margin: 0;
+  padding: 56px 25px 0 25px;
+
+  font-family: "Neue Machina";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+}
+
+@media (min-width: 1440px) {
+  .from-school__preview-text {
+    padding-left: 0;
+    padding-top: 48px;
+  }
+}
