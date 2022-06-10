@@ -1,13 +1,10 @@
 // Решние проблемы с пассивными слушателями jQuery
 jQuery.event.special.touchstart = {
   setup: function (_, ns, handle) {
-    if (ns.includes("noPreventDefault")) {
-      this.addEventListener("touchstart", handle, { passive: false });
-    } else {
-      this.addEventListener("touchstart", handle, { passive: true });
-    }
-  },
+      this.addEventListener('touchend', handle, { passive: !ns.includes('noPreventDefault') });
+  }
 };
+
 jQuery.event.special.touchmove = {
   setup: function (_, ns, handle) {
     if (ns.includes("noPreventDefault")) {
@@ -19,8 +16,8 @@ jQuery.event.special.touchmove = {
 };
 
 // КОНСТАНТЫ:
-const rewiewsSliderControl = document.querySelector("#rewiews-sc"); // Блок с кнопками управления слайдером
-const feedbackSliderControl = document.querySelector("#feedback-sc");
+const rewiewsSliderControl = document.querySelector("#rewiews-sc"); // Блок с кнопками управления слайдером Reviews
+const feedbackSliderControl = document.querySelector("#feedback-sc"); // Блок с кнопками управления слайдером Feedback
 
 // ПАРАМЕТРЫ СЛАЙДЕРОВ:
 // Слайдер блока "Reviews"
@@ -66,7 +63,6 @@ $(".reviews__slider").slick({
 // Слайдер блока "Feedback"
 $(".feedback__slider").slick({
   mobileFirst: true,
-  // centerMode: true,
   infinite: false,
   dots: true,
   dotsClass: "slider__dots",
@@ -74,13 +70,10 @@ $(".feedback__slider").slick({
   nextArrow: document.querySelector("#feedback-scar"),
   slidesToShow: 1,
   slidesToScroll: 1,
-  centerPadding: "0",
   responsive: [
     {
       breakpoint: 767,
       settings: {
-        // centerMode: true,
-        // centerPadding: "140px",
         slidesToShow: 2,
          slidesToScroll: 1,
         appendDots: $(feedbackSliderControl),
