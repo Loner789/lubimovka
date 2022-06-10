@@ -61,6 +61,14 @@
 @import url(../blocks/slider-control/__btn/slider-control__btn.css);
 @import url(../blocks/slider-control/__btn/_dir/slider-control__btn_dir_right.css);
 @import url(../blocks/slider-control/__img/slider-control__img.css);
+/* FEEDBACK */
+@import url(../blocks/feedback/feedback.css);
+@import url(../blocks/feedback/__title/feedback__title.css);
+@import url(../blocks/feedback/__heading/feedback__heading.css);
+@import url(../blocks/feedback/__slider/feedback__slider.css);
+@import url(../blocks/feedback/__slide/feedback__slide.css);
+@import url(../blocks/feedback/__slide-text/feedback__slide-text.css);
+@import url(../blocks/feedback/__slide-caption/feedback__slide-caption.css);
 /* SOCIAL-MEDIA */
 @import url(../blocks/social-media/social-media.css);
 @import url(../blocks/social-media/__container/social-media__container.css);
