@@ -54,7 +54,7 @@ $(".reviews__slider").slick({
       settings: {
         adaptiveHeight: false,
         appendDots: $(rewiewsSliderControl),
-        centerPadding: "362px",
+        centerPadding: "346px",
       },
     },
   ],
