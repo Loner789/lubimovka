@@ -1,8 +1,10 @@
 // Решние проблемы с пассивными слушателями jQuery
 jQuery.event.special.touchstart = {
   setup: function (_, ns, handle) {
-      this.addEventListener('touchend', handle, { passive: !ns.includes('noPreventDefault') });
-  }
+    this.addEventListener("touchend", handle, {
+      passive: !ns.includes("noPreventDefault"),
+    });
+  },
 };
 
 jQuery.event.special.touchmove = {
@@ -75,15 +77,15 @@ $(".feedback__slider").slick({
       breakpoint: 767,
       settings: {
         slidesToShow: 2,
-         slidesToScroll: 1,
+        slidesToScroll: 1,
         appendDots: $(feedbackSliderControl),
       },
     },
     {
       breakpoint: 1023,
       settings: {
-         slidesToShow: 2,
-         slidesToScroll: 1,
+        slidesToShow: 2,
+        slidesToScroll: 1,
         appendDots: $(feedbackSliderControl),
       },
     },
