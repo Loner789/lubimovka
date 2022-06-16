@@ -1,6 +1,8 @@
-.reviews__title {
+.feedback__title {
     margin: 0;
     padding: 0;
+    max-width: 214px;
+    
     font-family: 'Neue Machina';
     font-style: normal;
     font-weight: 400;
@@ -8,10 +10,17 @@
     line-height: 1.14;
     letter-spacing: -0.01em;
     color: #242424;
+    
+}
+
+@media screen and (min-width: 768px) {
+    .feedback__title {
+        max-width: 400px;
+    }
 }
 
 @media screen and (min-width: 1024px) {
-    .reviews__title {
+    .feedback__title {
         font-size: 40px;
         line-height: 1;
     }

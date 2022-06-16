@@ -80,12 +80,6 @@
     min-height: 1px;
 }
 
-@media screen and (min-width: 768px) {
-    .slick-slide {
-        margin: 0 15px;
-    }
-}
-
 [dir='rtl'] .slick-slide
 {
     float: right;
@@ -108,7 +102,7 @@
 
 .slick-initialized .slick-slide
 {
-    display: block;
+    display: flex;
 }
 
 .slick-loading .slick-slide
@@ -125,11 +119,6 @@
 
 .slick-arrow.slick-hidden {
     display: none;
-}
-
-/* Стилизация боковых слайдов */
-.slick-slide:not(.slick-current) {
-    opacity: 0.4;
 }
 
 .slick-disabled {
