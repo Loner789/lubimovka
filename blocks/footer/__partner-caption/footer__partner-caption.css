@@ -10,3 +10,9 @@
   font-feature-settings: "ss01" on;
   color: #242424;
 }
+
+@media screen and (min-width: 767px) {
+  .footer__partner-caption {
+    display: none;
+  }
+}

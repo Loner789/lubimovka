@@ -1,0 +1,11 @@
+.footer__developers {
+  padding: 0;
+  max-width: 254px;
+}
+
+@media screen and (min-width: 900px) {
+  .footer__developers {
+    max-width: 207px;
+    align-self: flex-end;
+  }
+}

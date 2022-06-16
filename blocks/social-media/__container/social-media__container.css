@@ -1,13 +1,14 @@
 .social-media__container {
   display: flex;
   flex-direction: column;
-  padding: 0 0 100px 26px;
+  padding: 24px 0 100px 26px;
 }
 
 @media screen and (min-width: 720px) {
   .social-media__container {
     margin: auto;
     max-width: 666px;
+    padding-top: 57px;
     padding-left: 0;
   }
 }
