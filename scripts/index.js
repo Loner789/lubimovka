@@ -21,6 +21,27 @@ jQuery.event.special.touchmove = {
 const rewiewsSliderControl = document.querySelector("#rewiews-sc"); // Блок с кнопками управления слайдером Reviews
 const feedbackSliderControl = document.querySelector("#feedback-sc"); // Блок с кнопками управления слайдером Feedback
 
+// ФУНКЦИИ:
+// Скрытие-показ пагинации блока "Reviews"
+function showReviewPagination() {
+  const slidesList = document.querySelectorAll('.reviews__slide');
+
+  if (slidesList.length >= 4 && slidesList.length <= 10) {
+    return true;
+  }
+  return false;
+}
+
+// Скрытие-показ пагинации блока "Feedback"
+function showFeedbackPagination() {
+  const slidesList = document.querySelectorAll('.feedback__slide');
+
+  if (slidesList.length >= 4 && slidesList.length <= 10) {
+    return true;
+  }
+  return false;
+}
+
 // ПАРАМЕТРЫ СЛАЙДЕРОВ:
 // Слайдер блока "Reviews"
 $(".reviews__slider").slick({
@@ -28,7 +49,7 @@ $(".reviews__slider").slick({
   centerMode: true,
   adaptiveHeight: true,
   infinite: false,
-  dots: true,
+  dots: showReviewPagination(),
   dotsClass: "slider__dots",
   prevArrow: document.querySelector("#review-scal"),
   nextArrow: document.querySelector("#review-scar"),
@@ -66,7 +87,7 @@ $(".reviews__slider").slick({
 $(".feedback__slider").slick({
   mobileFirst: true,
   infinite: false,
-  dots: true,
+  dots: showFeedbackPagination(),
   dotsClass: "slider__dots",
   prevArrow: document.querySelector("#feedback-scal"),
   nextArrow: document.querySelector("#feedback-scar"),
