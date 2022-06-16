@@ -1,4 +1,8 @@
 .footer__partners-box {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__partners-box:first-child {
+  display: none;
 }
