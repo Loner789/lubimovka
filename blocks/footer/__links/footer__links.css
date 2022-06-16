@@ -1,8 +1,27 @@
 .footer__links {
-    margin: 0;
-    padding: 56px 0 0 55px;
-    display: flex;
-    max-width: 278px;
-    flex-direction: row;
+  margin: 0;
+  padding: 53px 0 0 55px;
+  display: flex;
+  max-width: 278px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 900px) {
+  .footer__links {
+    justify-content: flex-start;
+    max-width: 100%;
+    padding: 0;
+    grid-row: 2/3;
+    grid-column: 3/4;
+  }
+}
+
+@media screen and (min-width: 1279px) {
+  .footer__links {
     justify-content: space-between;
+    padding: 0;
+    grid-row: 2/3;
+    grid-column: 3/4;
+  }
 }

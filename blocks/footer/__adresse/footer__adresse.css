@@ -9,3 +9,10 @@
   color: #242424;
   opacity: 0.6;
 }
+
+@media screen and (min-width: 900px) {
+  .footer__adresse {
+    font-size: 14px;
+    line-height: 1.21;
+  }
+}
