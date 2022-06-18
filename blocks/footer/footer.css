@@ -16,7 +16,6 @@
   .footer {
     display: grid;
     grid-template-rows: 80px 210px 10vh;
-    grid-template-columns: 14vw 33vw 27vw 17vw;
     column-gap: 24px;
     row-gap: 20px;
   }
@@ -26,7 +25,6 @@
   .footer {
     display: grid;
     grid-template-rows: 80px 210px 6vh;
-    grid-template-columns: 14vw 33vw 27vw 17vw;
     column-gap: 36px;
   }
 }
@@ -35,7 +33,6 @@
   .footer {
     display: grid;
     grid-template-rows: 80px 210px 8vh;
-    grid-template-columns: 11vw 2fr 1fr 1fr;
     column-gap: 49px;
   }
 }
