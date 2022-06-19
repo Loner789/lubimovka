@@ -9,5 +9,6 @@
   .footer__logo {
     grid-row: 1/4;
     padding-left: 32px;
+    padding-right: 33px;
   }
 }

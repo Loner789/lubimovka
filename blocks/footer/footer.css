@@ -16,6 +16,7 @@
   .footer {
     display: grid;
     grid-template-rows: 80px 210px 10vh;
+    grid-template-columns: 0.5fr 2fr 1fr 1fr;
     column-gap: 24px;
     row-gap: 20px;
   }
@@ -34,5 +35,6 @@
     display: grid;
     grid-template-rows: 80px 210px 8vh;
     column-gap: 49px;
+    padding-right: 92px;
   }
 }
