@@ -23,5 +23,6 @@
     padding: 0;
     grid-row: 2/3;
     grid-column: 3/4;
+    padding-left: 42px;
   }
 }
