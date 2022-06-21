@@ -1,8 +1,16 @@
 .from-school__files-block {
-  padding-left: calc(85px - 24px);
+  align-self: center;
   width: 244px;
+  cursor: pointer;
 }
 
-.from-school__files-block {
-  padding-left: 0;
+.from-school__files-block:hover > .from-school__files-button {
+  visibility: hidden;
+}
+
+@media (min-width: 828px) {
+  .from-school__files-block {
+    padding-left: 0;
+    align-self: unset;
+  }
 }

@@ -3,6 +3,12 @@
   border: 1px solid #000;
   background-color: unset;
 
+  background-image: linear-gradient(#242424, #242424);
+  background-repeat: no-repeat;
+  transition: background-size 0.2s, color 0.2s;
+  background-size: 0% 100%;
+  cursor: pointer;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -19,6 +25,19 @@
   line-height: 1.38;
 }
 
+.from-school__ticket-button:hover {
+  background-size: 100% 100%;
+  color: #ecebe8;
+}
+
+.from-school__ticket-button:hover > img {
+  filter: invert(100%) sepia(1%) saturate(1026%) hue-rotate(325deg)
+    brightness(100%) contrast(85%);
+}
+
+.from-school__ticket-button:active {
+  transform: scale(1.1);
+}
 @media (min-width: 1440px) {
   .from-school__ticket-button {
     margin-left: 0;

@@ -1,6 +1,7 @@
 .from-school__copyright-author {
   margin: 0;
   padding-bottom: 8px;
+  width: min-content;
 
   font-family: "Neue Machina";
   font-weight: 400;

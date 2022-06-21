@@ -1,5 +1,14 @@
 .from-school__video {
+  position: relative;
+  padding: 0 0 56.25% 0;
+  height: 0;
+  overflow: hidden;
+}
+
+.from-school__video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  height: 206px;
-  background-color: black;
+  height: 100%;
 }
