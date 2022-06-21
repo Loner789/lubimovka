@@ -1,0 +1,23 @@
+.feedback {
+    width: 100%;
+    padding: 0;
+    font-family: 'Formular', 'Arial', sans-serif;
+}
+
+@media screen and (min-width: 768px) {
+    .feedback {
+        padding-bottom: 30px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .feedback {
+        padding-bottom: 45px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .feedback {
+        padding-bottom: 64px;
+    }
+}

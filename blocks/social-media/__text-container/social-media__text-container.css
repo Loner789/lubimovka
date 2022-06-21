@@ -1,0 +1,10 @@
+.social-media__text-container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 720px) {
+  .social-media__text-container {
+    flex-direction: row;
+  }
+}

@@ -1,0 +1,47 @@
+.slider__dots {
+    max-width: 150px;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    position: absolute;
+    top: 32px;
+    left: 29px;
+    list-style: none;
+}
+
+.slider__dots button {
+    margin: 0;
+    padding: 0;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    cursor: pointer;
+    color: transparent;
+    border: 1px solid #242424;
+    ;
+    outline: none;
+    background: transparent;
+}
+
+.slider__dots button:hover {
+    width: 8px;
+    height: 8px;
+    background-color: #000;
+}
+
+.slider__dots li.slick-active button {
+    width: 8px;
+    height: 8px;
+    background-color: #000;
+}
+
+@media screen and (min-width: 768px) {
+    .slider__dots {
+        top: 0;
+        left: -30px;
+        transform: translate(-100%, 100%);
+    }
+}

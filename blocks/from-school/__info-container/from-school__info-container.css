@@ -1,0 +1,23 @@
+.from-school__info-container {
+  box-sizing: border-box;
+  background-color: #fff;
+  padding: 58px 20px 72px 27px;
+}
+/* 
+*/
+
+@media (min-width: 828px) {
+  .from-school__info-container {
+    width: 50%;
+    background-color: #ecebe8;
+    padding-left: 12.6vw;
+    padding-top: 0;
+    padding-right: 89px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .from-school__info-container {
+    padding-left: 182px;
+  }
+}

@@ -1,0 +1,10 @@
+.footer__partner-img {
+  mix-blend-mode: multiply;
+}
+
+@media screen and (min-width: 900px) {
+  .footer__partner-img {
+    width: 91px;
+    height: 31px;
+  }
+}

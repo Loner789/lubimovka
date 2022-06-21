@@ -1,0 +1,15 @@
+.feedback__heading {
+    max-width: 718px;
+    margin: 0 auto;
+    padding: 0 24px 38px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (min-width: 1024px) {
+    .feedback__heading {
+        padding-bottom: 55px;
+    }
+}

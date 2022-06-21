@@ -1,0 +1,10 @@
+.from-school__description-paragraphs {
+  max-width: 602px;
+  padding-top: 32px;
+}
+
+@media (min-width: 1440px) {
+  .from-school__description-paragraphs {
+    padding-top: 66px;
+  }
+}

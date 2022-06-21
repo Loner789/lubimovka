@@ -1,0 +1,7 @@
+.slider-control__btn_dir_right {
+    transform: rotate(180deg);
+}
+
+.slider-control__btn_dir_right:active {
+    transform: scale(1.1) rotate(180deg);
+}

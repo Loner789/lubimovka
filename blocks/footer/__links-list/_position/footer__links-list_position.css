@@ -1,0 +1,18 @@
+.footer__links-list_position {
+  padding: 53px 0 0 55px;
+}
+
+@media screen and (min-width: 767px) {
+  .footer__links-list_position {
+    padding-left: 0;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .footer__links-list_position {
+    padding: 0 0 0 23px;
+    grid-row: 2/3;
+    grid-column: 4/5;
+    max-width: 189px;
+  }
+}

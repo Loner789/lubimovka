@@ -1,0 +1,14 @@
+.footer__partners-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__partners-box:first-child {
+  display: none;
+}
+
+@media screen and (min-width: 767px) {
+  .footer__partners-box:first-child {
+    display: flex;
+  }
+}
