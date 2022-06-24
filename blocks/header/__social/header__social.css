@@ -1,0 +1,17 @@
+.header__social{
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .header__social{
+    display: flex;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    width: 257px;
+    align-items: center;
+    border-left: 1px solid #232323;
+    border-right: 1px solid #232323;
+    height: 48px;
+    box-sizing: border-box;
+  }
+}

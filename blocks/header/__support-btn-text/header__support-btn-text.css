@@ -1,0 +1,11 @@
+.header__support-btn-text {
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    font-family: 'Formular';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.21;
+    color: #242424;
+}
