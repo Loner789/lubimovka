@@ -5,8 +5,9 @@
 @media screen and (min-width: 1024px) {
   .header__menu {
     display: flex;
-    justify-content: space-around;
     flex-grow: 1;
     width: 902px;
+    height: 100%;
+    align-items: center;
   }
 }

@@ -5,7 +5,13 @@
     font-family: 'Formular';
     font-style: normal;
     font-weight: 300;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 1.21;
     color: #242424;
+}
+
+@media screen and (min-width: 1280px) {
+    .header__support-btn-text {
+        font-size: 14px;
+    }
 }

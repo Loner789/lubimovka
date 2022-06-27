@@ -1,0 +1,4 @@
+.header__burger-menu_active {
+    background-image: url(../../../../images/icon_close-icon.svg);
+    background-size: 20px 20px;
+}

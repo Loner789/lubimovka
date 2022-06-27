@@ -1,16 +1,26 @@
 .social-media__image {
-  width: 414px;
   height: 253px;
   box-sizing: border-box;
   object-fit: cover;
-  margin-bottom: 24px;
-  margin: auto;
 }
 
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 768px) {
   .social-media__image {
-    width: 91.666%;
-    margin-top: 0;
+    margin: 0 15px;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .social-media__image {
+    margin: 0 55px;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .social-media__image {
+    margin: 0 60px;
     height: auto;
   }
 }

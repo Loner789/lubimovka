@@ -1,5 +1,6 @@
 .social-media__btn-logo {
-  width: 25px;
-  height: 25px;
-  box-sizing: border-box;
+  width: 21px;
+  height: 13px;
+  transform: rotate(180deg);
+  align-self: center;
 }

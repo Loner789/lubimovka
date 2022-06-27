@@ -18,10 +18,18 @@ jQuery.event.special.touchmove = {
 };
 
 // КОНСТАНТЫ:
+const burgerButton = document.querySelector(".header__burger-menu"); // Кнопка бургерного меню
+const burgerPopup = document.querySelector(".burger-popup"); // Попап бургерного меню
 const rewiewsSliderControl = document.querySelector("#rewiews-sc"); // Блок с кнопками управления слайдером Reviews
 const feedbackSliderControl = document.querySelector("#feedback-sc"); // Блок с кнопками управления слайдером Feedback
 
 // ФУНКЦИИ:
+// Переключение состояния бургерного меню
+function toggleBurgerMenu() {
+  burgerPopup.classList.toggle("popup-opened");
+  burgerButton.classList.toggle("header__burger-menu_active");
+}
+
 // Скрытие-показ пагинации блока "Reviews"
 function showReviewPagination() {
   const slidesList = document.querySelectorAll('.reviews__slide');
@@ -120,3 +128,6 @@ $(".feedback__slider").slick({
     },
   ],
 });
+
+// Слушатели событий
+burgerButton.addEventListener("click", toggleBurgerMenu);
