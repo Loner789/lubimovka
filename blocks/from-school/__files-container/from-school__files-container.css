@@ -1,6 +1,5 @@
 .from-school__files-container {
-  padding-left: 24px;
-  padding-bottom: 100px;
+  padding: 0 24px 100px;
   display: flex;
   flex-direction: column;
 }
@@ -8,5 +7,6 @@
 @media (min-width: 828px) {
   .from-school__files-container {
     padding-left: 0;
+    padding-right: 0;
   }
 }

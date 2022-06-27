@@ -18,6 +18,8 @@
 
 @media (min-width: 1440px) {
   .from-school__heading-text {
+    max-width: 418px;
+    box-sizing: border-box;
     padding-bottom: 212px;
     padding-left: calc(180px - 120px);
   }

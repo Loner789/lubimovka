@@ -1,0 +1,35 @@
+.header__burger-menu {
+    margin: 0;
+    padding: 0;
+    width: 72px;
+    height: 72px;
+    border: none;
+    outline: none;
+    background: #242424;
+    background-image: url(../../../images/icon_burger_menu.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 12px;
+    right: 24px;
+    cursor: pointer;
+    z-index: 2;
+    transition: opacity 0.3s linear;
+}
+
+.header__burger-menu:hover {
+    opacity: 0.8;
+}
+
+.header__burger-menu:active {
+    transform: scale(1.1);
+}
+
+@media screen and (min-width: 1024px) {
+    .header__burger-menu {
+        display: none;
+    }
+}

@@ -1,0 +1,21 @@
+.burger-popup__link {
+    margin: 0;
+    padding: 10px 20px;
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    font-family: 'Formular';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 1;
+    text-decoration: none;
+    color: #242424;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.burger-popup__link:hover {
+    background: #242424;
+    color: white;
+}

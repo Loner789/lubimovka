@@ -1,0 +1,40 @@
+.header__support-btn {
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .header__support-btn {
+    margin: 0;
+    padding: 0;
+    width: 164px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    position: relative;
+    border: none;
+    box-sizing: border-box;
+    background-image: linear-gradient(#242424, #242424);
+    background-repeat: no-repeat;
+    transition: background-size 0.3s, color 0.3s, transform 0.2s;
+    background-size: 0% 100%;
+  }
+
+  .header__support-btn:hover {
+    background-size: 100% 100%;
+    color: #ecebe8;
+  }
+
+  .header__support-btn:hover>.header__support-btn-text {
+    color: #ecebe8;
+  }
+
+  .header__support-btn:hover>.header__support-btn-img {
+    filter: invert(1);
+  }
+
+  .header__support-btn:active {
+    transform: scale(1.1);
+  }
+}

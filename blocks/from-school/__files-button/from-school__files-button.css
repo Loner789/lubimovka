@@ -17,16 +17,22 @@
   font-size: 16px;
   line-height: 1.38;
 
-  transition: background-color 0.2s, color 0.2s, visibility 0.2s;
+  background-image: linear-gradient(#242424, #242424);
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  transition: background-size 0.3s, color 0.3s, visibility 0.2s;
   cursor: pointer;
 }
 
 .from-school__files-button:hover {
-  background-color: #242424;
+  background-size: 100% 100%;
   color: #ecebe8;
 }
 
-.from-school__files-button:hover > img {
-  filter: invert(100%) sepia(1%) saturate(1026%) hue-rotate(325deg)
-    brightness(100%) contrast(85%);
+.from-school__files-button:hover>img {
+  filter: invert(100%) sepia(1%) saturate(1026%) hue-rotate(325deg) brightness(100%) contrast(85%);
+}
+
+.from-school__files-button:active {
+  transform: scale(1.1);
 }
