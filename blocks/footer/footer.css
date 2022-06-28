@@ -4,7 +4,7 @@
   padding: 56px 0 74px;
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
   .footer {
     padding-left: 32px;
     padding-right: 32px;

@@ -1,14 +1,19 @@
 .footer__logo {
   margin: 0;
-  padding-left: 58px;
+  padding-left: 24px;
   width: 93px;
   height: 80px;
+}
+
+@media screen and (min-width: 414px) {
+  .footer__logo {
+    padding-left: 58px;
+  }
 }
 
 @media screen and (min-width: 900px) {
   .footer__logo {
     grid-row: 1/4;
-    /* padding-left: 32px; */
     padding-left: 0;
     padding-right: 33px;
   }

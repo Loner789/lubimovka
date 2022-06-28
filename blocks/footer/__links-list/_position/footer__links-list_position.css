@@ -1,10 +1,18 @@
 .footer__links-list_position {
-  padding: 53px 0 0 55px;
+  padding: 53px 24px 0;
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 414px) {
+  .footer__links-list_position {
+    padding-left: 55px;
+    padding-right: 55px;
+  }
+}
+
+@media screen and (min-width: 768px) {
   .footer__links-list_position {
     padding-left: 0;
+    padding-right: 0;
   }
 }
 
