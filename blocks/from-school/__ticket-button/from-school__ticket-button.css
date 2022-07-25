@@ -3,10 +3,10 @@
   border: 1px solid #000;
   background-color: unset;
 
-  background-image: linear-gradient(#242424, #242424);
+  background: linear-gradient(to left, transparent 50%, #242424 50%) right;
   background-repeat: no-repeat;
-  transition: background-size 0.3s, color 0.3s;
-  background-size: 0% 100%;
+  transition: background-position 0.4s, color 0.4s;
+  background-size: 200%;
   cursor: pointer;
 
   display: flex;
@@ -26,7 +26,7 @@
 }
 
 .from-school__ticket-button:hover {
-  background-size: 100% 100%;
+  background-position: left;
   color: #ecebe8;
 }
 
