@@ -57,6 +57,7 @@ $(".reviews__slider").slick({
   centerMode: true,
   adaptiveHeight: true,
   infinite: false,
+  swipeToSlide: true,
   dots: showReviewPagination(),
   dotsClass: "slider__dots",
   prevArrow: document.querySelector("#review-scal"),
@@ -95,6 +96,7 @@ $(".reviews__slider").slick({
 $(".feedback__slider").slick({
   mobileFirst: true,
   infinite: false,
+  swipeToSlide: true,
   dots: showFeedbackPagination(),
   dotsClass: "slider__dots",
   prevArrow: document.querySelector("#feedback-scal"),
