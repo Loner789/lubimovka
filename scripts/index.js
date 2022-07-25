@@ -1,21 +1,21 @@
-// Решние проблемы с пассивными слушателями jQuery
-jQuery.event.special.touchstart = {
-  setup: function (_, ns, handle) {
-    this.addEventListener("touchend", handle, {
-      passive: !ns.includes("noPreventDefault"),
-    });
-  },
-};
+// Решение проблемы с пассивными слушателями jQuery
+// jQuery.event.special.touchstart = {
+//   setup: function (_, ns, handle) {
+//     this.addEventListener("touchend", handle, {
+//       passive: !ns.includes("noPreventDefault"),
+//     });
+//   },
+// };
 
-jQuery.event.special.touchmove = {
-  setup: function (_, ns, handle) {
-    if (ns.includes("noPreventDefault")) {
-      this.addEventListener("touchmove", handle, { passive: false });
-    } else {
-      this.addEventListener("touchmove", handle, { passive: true });
-    }
-  },
-};
+// jQuery.event.special.touchmove = {
+//   setup: function (_, ns, handle) {
+//     if (ns.includes("noPreventDefault")) {
+//       this.addEventListener("touchmove", handle, { passive: false });
+//     } else {
+//       this.addEventListener("touchmove", handle, { passive: true });
+//     }
+//   },
+// };
 
 // КОНСТАНТЫ:
 const burgerButton = document.querySelector(".header__burger-menu"); // Кнопка бургерного меню
