@@ -11,13 +11,13 @@ ___
 В работе над проектом принимали участие:
 * Дмитрий Малиновский 
 
-    ***[ссылка на профиль Github](https://github.com/Loner789)***
+    <a href="https://github.com/Loner789" target="_blank">ссылка на профиль Github</a>
 * Владимир Овчинников 
 
-    ***[ссылка на профиль Github](https://github.com/vlovchinnikov21)***
+    <a href="https://github.com/vlovchinnikov21" target="_blank">ссылка на профиль Github</a>
 * Антон Прохоров 
 
-    ***[ссылка на профиль Github](https://github.com/VARPMEN)***
+    <a href="https://github.com/VARPMEN" target="_blank">ссылка на профиль Github</a>
 
 **О проекте:**
 
