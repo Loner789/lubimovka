@@ -1,8 +1,8 @@
 .header__burger-menu {
     margin: 0;
     padding: 0;
-    width: 72px;
-    height: 72px;
+    width: 57px;
+    height: 57px;
     border: none;
     outline: none;
     background: #242424;
@@ -26,6 +26,13 @@
 
 .header__burger-menu:active {
     transform: scale(1.1);
+}
+
+@media screen and (min-width: 767px) {
+  .header__burger-menu {
+      width: 72px;
+      height: 72px;
+  }
 }
 
 @media screen and (min-width: 1024px) {

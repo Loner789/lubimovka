@@ -17,46 +17,100 @@ jQuery.event.special.touchmove = {
   },
 };
 
-// КОНСТАНТЫ:
-const burgerButton = document.querySelector(".header__burger-menu"); // Кнопка бургерного меню
-const burgerPopup = document.querySelector(".burger-popup"); // Попап бургерного меню
-const rewiewsSliderControl = document.querySelector("#rewiews-sc"); // Блок с кнопками управления слайдером Reviews
-const feedbackSliderControl = document.querySelector("#feedback-sc"); // Блок с кнопками управления слайдером Feedback
+// ---------------------- CONSTANTS ----------------------
+const burgerButton = document.querySelector(".header__burger-menu");
+const burgerPopup = document.querySelector(".burger-popup");
+const rewiewsSliderControl = document.querySelector("#rewiews-sc");
+const feedbackSliderControl = document.querySelector("#feedback-sc");
+const feedbackSlider = document.querySelector(".feedback__slider");
+const reviewSlider = document.querySelector(".reviews__slider");
+const photoGrid = document.querySelector(".photo-grid__container");
 
-// ФУНКЦИИ:
-// Переключение состояния бургерного меню
+
+// ---------------------- FUNCTIONS ----------------------
+// Burger menu toggler
 function toggleBurgerMenu() {
   burgerPopup.classList.toggle("popup-opened");
   burgerButton.classList.toggle("header__burger-menu_active");
 }
 
-// Скрытие-показ пагинации блока "Reviews"
-function showReviewPagination() {
-  const slidesList = document.querySelectorAll('.reviews__slide');
 
-  if (slidesList.length >= 4 && slidesList.length <= 10) {
-    return true;
-  }
-  return false;
+// ---------------------- CREATING FUNCTIONS -------------------------
+// Creation of Review-section card from template
+function createReviewCard(data) {
+  const { image, imageName, text } = data;
+  const cardElement = document
+    .querySelector('#reviews-slide')
+    .content.querySelector('.reviews__slide')
+    .cloneNode(true);
+
+  cardElement.querySelector('.reviews__slide-image').src = image;
+  cardElement.querySelector('.reviews__slide-image').alt = imageName;
+  cardElement.querySelector('.reviews__slide-text').textContent = text;
+
+  return cardElement;
 }
 
-// Скрытие-показ пагинации блока "Feedback"
-function showFeedbackPagination() {
-  const slidesList = document.querySelectorAll('.feedback__slide');
+// Creation of Feedback-section card from template
+function createFeedbackCard(data) {
+  const { text, author} = data;
+  const cardElement = document
+    .querySelector('#feedback-slide')
+    .content.querySelector('.feedback__slide')
+    .cloneNode(true);
 
-  if (slidesList.length >= 4 && slidesList.length <= 10) {
-    return true;
-  }
-  return false;
+  cardElement.querySelector('.feedback__slide-text').textContent = text;
+  cardElement.querySelector('.feedback__slide-caption').textContent = author;
+
+  return cardElement;
 }
 
-// ПАРАМЕТРЫ СЛАЙДЕРОВ:
-// Слайдер блока "Reviews"
+// Creation of photo for Photo-section
+function createPhoto(photoData) {
+  const { image, name } = photoData;
+  const photo = document.createElement('img');
+
+  photo.src = image;
+  photo.alt = name;
+  photo.classList.add('photo-grid__image');
+
+  return photo;
+}
+
+
+// ---------------------- RENDER FUNCTION ----------------------
+// Render function
+function renderItems(item, block) {
+  block.append(item);
+}
+
+
+// ---------------------- INSERTING FUNCTION ----------------------
+// Inserting data from the initial arrays
+function loadInitialData(data, createFunction, renderFunction, node) {
+  data.forEach((item) => {
+    const element = createFunction(item);
+    renderFunction(element, node);
+  });
+}
+
+// Show-hide block of pagination
+function showPagination(element) {
+  return element.length >= 4 && element.length <= 10 ? true : false;
+}
+
+loadInitialData(reviewsInitialCards, createReviewCard, renderItems, reviewSlider);
+loadInitialData(feedbackInitialCards, createFeedbackCard, renderItems, feedbackSlider);
+loadInitialData(initialPhotos, createPhoto, renderItems, photoGrid);
+
+
+// ---------------------- SLIDERS PARAMETERS ----------------------
+// Reviews Slider
 $(".reviews__slider").slick({
   mobileFirst: true,
   centerMode: true,
   adaptiveHeight: true,
-  dots: showReviewPagination(),
+  dots: showPagination(reviewsInitialCards),
   dotsClass: "slider__dots",
   prevArrow: document.querySelector("#review-scal"),
   nextArrow: document.querySelector("#review-scar"),
@@ -90,11 +144,11 @@ $(".reviews__slider").slick({
   ],
 });
 
-// Слайдер блока "Feedback"
+// Feedback Slider
 $(".feedback__slider").slick({
   mobileFirst: true,
   infinite: false,
-  dots: showFeedbackPagination(),
+  dots: showPagination(feedbackInitialCards),
   dotsClass: "slider__dots",
   prevArrow: document.querySelector("#feedback-scal"),
   nextArrow: document.querySelector("#feedback-scar"),
@@ -128,5 +182,6 @@ $(".feedback__slider").slick({
   ],
 });
 
-// Слушатели событий
+
+// ---------------------- EVENT LISTENERS ----------------------
 burgerButton.addEventListener("click", toggleBurgerMenu);
