@@ -9,13 +9,13 @@ ___
 разработки.
 
 В работе над проектом принимали участие:
-* Дмитрий Малиновский 
+* Дмитрий Малиновский
 
     ***[ссылка на профиль Github](https://github.com/Loner789)***
-* Владимир Овчинников 
+* Владимир Овчинников
 
     ***[ссылка на профиль Github](https://github.com/vlovchinnikov21)***
-* Антон Прохоров 
+* Антон Прохоров
 
     ***[ссылка на профиль Github](https://github.com/VARPMEN)***
 
@@ -43,11 +43,9 @@ ___
 * Навигация по странице реализована при помощи CSS и JavaScript;
 * Видеоматериалы вставлены при помощи технологии iframe;
 * Анимация слайдеров на странице реализована при помощи библиотеки [jQuery](https://jquery.com/) и плагина [Slick](https://plugins.jquery.com/slick/);
-* Файловая структура: [БЭМ Nested](https://ru.bem.info/methodology/filestructure/#nested).
+* Файловая структура: [БЭМ Nested](https://ru.bem.info/methodology/filestructure/#nested);
+* Проект реорганизован при помощи сборщика модулей [Webpack](https://ru.wikipedia.org/wiki/Webpack).
 
 *[Узнать подробности о поддержке проекта браузерами](https://caniuse.com/?search=grid)*
-___
-### Планы по доработке
-* Замена слайдера на более стабильный вариант ([Swiper](https://swiperjs.com/)).
 ___
 **Приятного просмотра!**
